@@ -1,0 +1,388 @@
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 7% 50% 43%;
+    grid-template-areas:
+        'contentHeader contentHeader contentHeader'
+        'cardPicture cardInfo cardTeam'
+        'cardStatTable cardStatTable cardStatTable';
+}
+
+/*Content Header*/
+
+.contentHeader{
+    grid-area: contentHeader;
+    display: flex;
+    flex-direction: row;
+}
+
+.contentHeader div{
+    margin: 0;
+}
+
+/*Card buttons*/
+
+.cardBtn{
+    height: 70%;
+    width: 100%;
+    flex: 10%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    pointer-events: auto;
+    opacity: 1;
+
+    /*Make text non selectable*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cardBtn:hover{
+    filter: brightness(75%);
+}
+
+.cardBtn:active{
+    filter: brightness(50%);
+}
+
+/*Card Name*/
+
+.cardName{
+    font-size: xx-large;
+    font-weight: 900;
+    flex: 80%;
+    height: 100%;
+    text-align: center;
+}
+
+.sectionTitle{
+    width: 90%;
+    text-align: center;
+    grid-area: sectionTitle;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+/*Card Picture*/
+
+.cardPicture{
+    grid-area: cardPicture;
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100%;
+}
+
+@keyframes load {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+.loading{
+    grid-column: 1;
+    grid-row: 1;
+    z-index: -1;
+
+    animation-name: load;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+#cardImg{
+    width: 90%;
+    height: 90%;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#teamLogo{
+    max-width: 75%;
+    max-height: 75%;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+/*Card General Information*/
+
+.cardInfo{
+    grid-area: cardInfo;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas:
+        'sectionTitle sectionTitle'
+        'cardNumberLabel cardNumberData'
+        'playerNumberLabel playerNumberData'
+        'cardDescriptionLabel cardDescriptionData'
+        'cardClassLabel cardClassData';
+}
+
+/*Card info label*/
+
+.cardNumberLabel{
+    grid-area: cardNumberLabel;
+}
+
+.cardDescriptionLabel{
+    grid-area: cardDescriptionLabel;
+}
+
+.cardClassLabel{
+    grid-area: cardClassLabel;
+}
+
+/*Card info label*/
+
+.cardNumberData{
+    grid-area: cardNumberData;
+}
+
+.cardDescriptionData{
+    grid-area: cardDescriptionData;
+    height: 100%;
+    overflow: auto;
+}
+
+.cardClassData{
+    grid-area: cardClassData;
+}
+
+/*Card Team Information*/
+
+.cardTeam{
+    grid-area: cardTeam;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% 20% 60%;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'sectionTitle'
+        'cardTeamName'
+        'cardTeamLogo';
+}
+
+.cardTeamName{
+    grid-area: cardTeamName;
+}
+
+.cardTeamLogo{
+    grid-area: cardTeamLogo;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100%;
+}
+
+/*Card Stat Information*/
+
+.cardStatTable{
+    grid-area: cardStatTable;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr;
+    grid-template-rows: 10% 18% 18% 18% 18% 18%;
+    grid-template-areas:
+    'sectionTitle           sectionTitle            sectionTitle        sectionTitle'
+    'cardStrengthLabel      cardStrengthBar         cardStrengthData    cardStrengthLogo'
+    'cardDexterityLabel     cardDexterityBar        cardDexterityData   cardDexterityLogo'
+    'cardAgilityLabel       cardAgilityBar          cardAgilityData     cardAgilityLogo'
+    'cardInteligenceLabel   cardInteligenceBar      cardInteligenceData cardInteligenceLogo'
+    'cardStaminaLabel       cardStaminaBar          cardStaminaData     cardStaminaLogo';
+}
+
+/*Card stat label*/
+
+.label{
+    width: 100%;
+    text-align: right;
+}
+
+.cardStrengthLabel{
+    grid-area: cardStrengthLabel;
+}
+
+.cardDexterityLabel{
+    grid-area: cardDexterityLabel;
+}
+
+.cardAgilityLabel{
+    grid-area: cardAgilityLabel;
+}
+
+.cardInteligenceLabel{
+    grid-area: cardInteligenceLabel;
+}
+
+.cardStaminaLabel{
+    grid-area: cardStaminaLabel;
+}
+
+/*Card stat Bar*/
+
+.statBar{
+    justify-self: left;
+    background-color: red;
+    height: 0.75rem;
+    border-radius: 4px;
+    border: 1px solid #737373;
+    border-color: rgba(0,0,0,.15);
+}
+
+.cardStrengthBar{
+    grid-area: cardStrengthBar;
+}
+
+.cardDexterityBar{
+    grid-area: cardDexterityBar;
+}
+
+.cardAgilityBar{
+    grid-area: cardAgilityBar;
+}
+
+.cardInteligenceBar{
+    grid-area: cardInteligenceBar;
+}
+
+.cardStaminaBar{
+    grid-area: cardStaminaBar;
+}
+
+/*Card stat data*/
+
+.data{
+    width: 100%;
+    text-align: center;
+}
+
+.cardStrengthData{
+    grid-area: cardStrengthData;
+}
+
+.cardDexterityData{
+    grid-area: cardDexterityData;
+}
+
+.cardAgilityData{
+    grid-area: cardAgilityData;
+}
+
+.cardInteligenceData{
+    grid-area: cardInteligenceData;
+}
+
+.cardStaminaData{
+    grid-area: cardStaminaData;
+}
+
+/*Card stat logo*/
+
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+.cardStrengthLogo{
+    grid-area: cardStrengthLogo;
+}
+
+.cardDexterityLogo{
+    grid-area: cardDexterityLogo;
+}
+
+.cardAgilityLogo{
+    grid-area: cardAgilityLogo;
+}
+
+.cardStaminaLogo{
+    grid-area: cardStaminaLogo;
+}
+
+.cardInteligenceLogo{
+    grid-area: cardInteligenceLogo;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1300px) {
+    article{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 3% 32% 32% 32%;
+        grid-template-areas:
+            'contentHeader  contentHeader'
+            'cardPicture    cardPicture'
+            'cardInfo       cardTeam'
+            'cardStatTable  cardStatTable';
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    .cardName{
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .cardName{
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .label {
+        width: 100%;
+        text-align: center;
+    }
+
+    article{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3% 24.25% 24.25% 24.25% 24.25%;
+        grid-template-areas:
+            'contentHeader'
+            'cardPicture'
+            'cardInfo'
+            'cardTeam'
+            'cardStatTable';
+    }
+
+    .cardStatTable{
+        grid-area: cardStatTable;
+        height: auto;
+        display: grid;
+        grid-template-columns: 30% 50% 10% 10%;
+        grid-template-rows: 10% 18% 18% 18% 18% 18%;
+    }
+    
+    .cardInfo{
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .cardName{
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .cardName{
+        font-size: small;
+    }
+}

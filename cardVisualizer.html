@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="title">Placeholder</title>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" type="text/css" href="./CSS/style.css" id="css">
+        <link rel="stylesheet" type="text/css" href="./CSS/MODES/lightMode.css" id="cssMode">
+        <link rel="stylesheet" type="text/css" href="./CSS/PAGES/cardVisualizer.css"> 
+    </head>
+
+    <body id="body">
+
+        <!--Cabeça do site--><header id="header">
+            <a href="index.html">
+                <div class="ui">
+                    <img src="./CARDS/LOGOS/UI/Light Mode/Home.png" id="homeLogo" alt="Página Inicial" title="Página Inicial">
+                </div>
+            </a>
+            <a>
+                <div class="ui">
+                    <img src="./CARDS/LOGOS/UI/Light Mode/Cards.png" id="cardsLogo" alt="Lista de Cartas" title="Lista de Cartas">
+                </div>
+            </a>
+            <a href="search.html">
+                <div class="ui">
+                    <img src="./CARDS/LOGOS/UI/Light Mode/Search.png" id="searchLogo" alt="Pesquisar Cartas" title="Pesquisar Cartas">
+                </div>
+            </a>
+            <div class="ui" onclick="themeChange()">
+                <img src="./CARDS/LOGOS/UI/Light Mode/Theme.png" id="themeLogo" alt="Mudar tema" title="Mudar tema">
+            </div>
+        </header>
+
+        <!--Conteúdo do site-->
+        <article id="main">
+
+            <!--Name-->
+            <div class="contentHeader">
+                <div class="cardBtn previousCard" id="previousCard" onclick="previousCard()">
+                    <img id="previousCardLogo" src="./CARDS/LOGOS/UI/Light Mode/Previous_Card.png">
+                    <!--Carta anterior-->
+                </div>
+                <div class="cardName" id="cardName">Nome da Carta</div>
+                <div class="cardBtn nextCard" id="nextCard" onclick="nextCard()">
+                    <!--Próxima carta-->
+                    <img id="nextCardLogo" src="./CARDS/LOGOS/UI/Light Mode/Next_Card.png">
+                </div>
+            </div>
+
+            <!--Picture-->
+            <div class="cardPicture" id="cardPicture">
+                <!--Foto da carta-->
+                <img src="./CARDS/LOGOS/UI/Light Mode/Loading.png" id="loading1" class="loading">
+                <img id="cardImg">
+            </div>
+
+            <!--Info-->
+            <div class="cardInfo">
+                <div class="sectionTitle">Informações</div>
+                <!--Label-->
+                <div class="cardNumberLabel">Número da carta</div>
+                <div class="playerNumberLabel">Número da camisa</div>
+                <div class="cardDescriptionLabel">Descrição da carta</div>
+                <div class="cardClassLabel">Classe da carta</div>
+
+                <!--Data-->
+                <div class="cardNumberData" id="cardNumber">Número da carta</div>
+                <div class="playerNumberData" id="playerNumber">Número da camisa</div>
+                <div class="cardDescriptionData" id="cardDescription">Descrição da carta</div>
+                <div class="cardClassData" id="cardClass">Classe da carta</div>
+            </div>
+
+            <!--Team-->
+            <div class="cardTeam">
+                <div class="sectionTitle">Time</div>
+                <div class="cardTeamName" id="cardTeamName">Nome do time</div>
+                <div class="cardTeamLogo" id="cardTeamLogo">
+                    <!--Brasão do time-->
+                    <img src="./CARDS/LOGOS/UI/Light Mode/APQ.png" id="loading2" class="loading">
+                    <img id="teamLogo">
+                </div>
+            </div>
+
+            <!--Stat Table-->
+            <div class="cardStatTable">
+                <div class="sectionTitle">Status</div>
+                <!--Label-->
+                <div class="label cardStrengthLabel">Força</div>
+                <div class="label cardDexterityLabel">Destreza</div>
+                <div class="label cardAgilityLabel">Agilidade</div>
+                <div class="label cardInteligenceLabel">Inteligência</div>
+                <div class="label cardStaminaLabel">Resistência</div>
+
+                <!--Bars-->
+                <div class="statBar cardStrengthBar" id="cardStrengthBar"></div>
+                <div class="statBar cardDexterityBar" id="cardDexterityBar"></div>
+                <div class="statBar cardAgilityBar" id="cardAgilityBar"></div>
+                <div class="statBar cardInteligenceBar" id="cardInteligenceBar"></div>
+                <div class="statBar cardStaminaBar" id="cardStaminaBar"></div>
+
+                <!--Data-->
+                <div class="data cardStrengthData" id="cardStrength">00</div>
+                <div class="data cardDexterityData" id="cardDexterity">00</div>
+                <div class="data cardAgilityData" id="cardAgility">00</div>
+                <div class="data cardInteligenceData" id="cardInteligence">00</div>
+                <div class="data cardStaminaData" id="cardStamina">00</div>
+
+                <!--Logos-->
+                <img class="logo cardStrengthLogo" id="cardStrengthLogo" src="./CARDS/LOGOS/UI/Light Mode/Strength.png" alt="Força" title="Força">
+                <img class="logo cardDexterityLogo" id="cardDexterityLogo" src="./CARDS/LOGOS/UI/Light Mode/Dexterity.png" alt="Destreza" title="Destreza">
+                <img class="logo cardAgilityLogo" id="cardAgilityLogo" src="./CARDS/LOGOS/UI/Light Mode/Agility.png" alt="Agilidade" title="Agilidade">
+                <img class="logo cardInteligenceLogo" id="cardInteligenceLogo" src="./CARDS/LOGOS/UI/Light Mode/Inteligence.png" alt="Inteligência" title="Inteligência">
+                <img class="logo cardStaminaLogo" id="cardStaminaLogo" src="./CARDS/LOGOS/UI/Light Mode/Stamina.png" alt="Resistência" title="Resistência">
+            </div>
+        </article>
+
+        <!--Rodapé do site-->
+        <footer>
+            Desenvolvido por <a href="https://linktr.ee/samuel.caleg">Samuel Calegnan</a>
+        </footer>
+
+        <script src="./JS/stats.js"></script>
+        <script src="./JS/visual.js"></script>
+        <script src="./JS/code.js"></script>
+        <script>renderNewCard()</script>
+    </body>
+</html>

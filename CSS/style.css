@@ -1,0 +1,140 @@
+html{
+    transition: 0.4s;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "Fira Sans","Trebuchet MS",Ubuntu,Helvetica,Arial sans-serif;
+    font-size: large;
+}
+
+hr{
+    width: 95%;
+    margin: 0;
+}
+
+body{
+    transition: 0.4s;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    z-index: 1;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    transition: 0.4s; /*animação do cabeçalho encolhendo e aumentando*/
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+}
+
+header a, .ui {
+    align-self: center;
+    justify-self: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.ui img{
+    height: inherit;
+    width: inherit;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    /*image-rendering: pixelated;*/
+    padding: 10%;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+article{
+    transition: 0.4s;
+    min-height: 100%;
+    margin-top: 12vh;
+    margin-bottom: 7vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+img{
+    height: inherit;
+    width: inherit;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    /*image-rendering: pixelated;*/
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer{
+    position: static;
+    height: 5vh;
+    grid-row: 3;
+    width: 100%;
+    align-self: flex-end;
+    bottom: 0;
+    margin-top: auto;
+    text-align: center;
+    transition: 0.4s;
+}
+
+div{
+    transition: 0.4s;
+    margin: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+/*Responsive*/
+
+@media screen and (min-width: 1440px) {
+    html{
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    article{
+        margin-bottom: 3vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    article{
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    html{
+        font-size: medium;
+    }
+
+    article{
+        margin: 10vh 0 0 0;
+    }
+
+    div{
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    html{
+        font-size: small;
+    }
+}

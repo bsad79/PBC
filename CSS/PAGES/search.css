@@ -1,0 +1,10 @@
+article{
+    padding: 1%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 83vh;
+
+    display: grid;
+}

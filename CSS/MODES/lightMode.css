@@ -1,0 +1,61 @@
+html{
+    background-color: #727272;
+}
+
+header{
+    background-color: #202020;
+
+}
+
+article{
+    background-color: white;
+}
+
+footer{
+    background-color: #202020;
+    color: white;
+}
+
+footer a:hover, footer a:active, footer a:visited, footer a:-webkit-any-link{
+    color: white;
+}
+
+div{
+    color: white;
+}
+
+div div{
+    color: black;
+}
+
+.contentHeader{
+    border-bottom: #727272 solid 1px;
+}
+
+.cardBtn{
+    background-color: white;
+}
+
+.sectionTitle{
+    border-bottom: #727272 solid 1px;
+}
+
+.cardInfo{
+    border-right: #727272 solid 1px;
+}
+
+/*Responsive*/
+
+@media screen and (min-width: 1440px) {
+    /**/
+}
+
+@media screen and (max-width: 1300px) {
+    /**/
+}
+
+@media screen and (max-width: 600px){
+    html{
+        background-color: #202020;
+    }
+}

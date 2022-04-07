@@ -1,0 +1,30 @@
+article{
+    /*text-align: center;*/
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+    display: grid;
+}
+
+p, h3{
+    margin: 3%;
+}
+
+/*Responsive*/
+
+@media screen and (min-width: 1440px) {
+    /**/
+}
+
+@media screen and (max-width: 1300px) {
+    /**/
+}
+
+@media screen and (max-width: 600px){
+    #rulesImg{
+        margin-left: 0;
+        margin-right: 0;
+        width: inherit;
+    }
+}
