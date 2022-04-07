@@ -1,5 +1,5 @@
 # Paulist-o-Battle-Cards-Online
-Site do jogo Paulistão Battle Cards
+Site do jogo Paulistão Battle Cards, você pode ver ele <a href="https://bsad79.github.io/PBC/">aqui</a>
 
 <h1>Regras</h1>
 
