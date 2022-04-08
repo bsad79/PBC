@@ -1963,7 +1963,7 @@ function getCard087() {
 
 //088
 var c088 = [
-    "Vin",
+    "Vini",
     "CARDS/IMAGES/088.png",
     "@brunobasila",
     "088",
