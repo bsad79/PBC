@@ -32,7 +32,7 @@ var c001 = [
     "--",
     "--",
     "Brasão de time",
-    "Dark Wolf",
+    "Dark Wolf Quiddich",
     "CARDS/LOGOS/TEAMS/DWQ.png",
     "--",
     "--",
