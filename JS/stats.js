@@ -25,10 +25,32 @@ function getCard000() {
 
 //001
 var c001 = [
-    "Ale",
+    "Dark Wolf",
     "CARDS/IMAGES/001.png",
-    "Desconhecido",
+    "--",
     "001",
+    "--",
+    "--",
+    "Brasão de time",
+    "Dark Wolf",
+    "CARDS/LOGOS/TEAMS/DWQ.png",
+    "--",
+    "--",
+    "--",
+    "--",
+    "--"
+]
+
+function getCard001() {
+    return c001;
+}
+
+//002
+var c002 = [
+    "Ale",
+    "CARDS/IMAGES/002.png",
+    "Desconhecido",
+    "002",
     "4",
     "Artilheiro",
     "Normal",
@@ -41,16 +63,16 @@ var c001 = [
     "11"
 ]
 
-function getCard001() {
-    return c001;
+function getCard002() {
+    return c002;
 }
 
-//002
-var c002 = [
+//003
+var c003 = [
     "Ayrton",
-    "CARDS/IMAGES/002.png",
+    "CARDS/IMAGES/003.png",
     "Laís Valente",
-    "002",
+    "003",
     "23",
     "Apanhador",
     "Normal",
@@ -63,16 +85,16 @@ var c002 = [
     "07"
 ]
 
-function getCard002() {
-    return c002;
+function getCard003() {
+    return c003;
 }
 
-//003
-var c003 = [
+//004
+var c004 = [
     "Camila",
-    "CARDS/IMAGES/003.png",
+    "CARDS/IMAGES/004.png",
     "Desconhecido",
-    "003",
+    "004",
     "7",
     "Batedora",
     "Normal",
@@ -85,16 +107,16 @@ var c003 = [
     "10"
 ]
 
-function getCard003() {
-    return c003;
+function getCard004() {
+    return c004;
 }
 
-//004
-var c004 = [
+//005
+var c005 = [
     "EricKill",
-    "CARDS/IMAGES/004.png",
+    "CARDS/IMAGES/005.png",
     "EricKill",
-    "004",
+    "005",
     "10",
     "Artilheiro",
     "Normal",
@@ -107,16 +129,16 @@ var c004 = [
     "10"
 ]
 
-function getCard004() {
-    return c004;
+function getCard005() {
+    return c005;
 }
 
-//005
-var c005 = [
+//006
+var c006 = [
     "Fê",
-    "CARDS/IMAGES/005.png",
+    "CARDS/IMAGES/006.png",
     "@oooohpeidola",
-    "005",
+    "006",
     "66",
     "Artilheiro",
     "Normal",
@@ -129,16 +151,16 @@ var c005 = [
     "09"
 ]
 
-function getCard005() {
-    return c005;
+function getCard006() {
+    return c006;
 }
 
-//006
-var c006 = [
+//007
+var c007 = [
     "Gabi Neves",
-    "CARDS/IMAGES/006.png",
+    "CARDS/IMAGES/007.png",
     "Amanda Lopes Fotografias",
-    "006",
+    "007",
     "8",
     "Batedora",
     "Normal",
@@ -151,16 +173,16 @@ var c006 = [
     "05"
 ]
 
-function getCard006() {
-    return c006;
+function getCard007() {
+    return c007;
 }
 
-//007
-var c007 = [
+//008
+var c008 = [
     "Jorginho",
-    "CARDS/IMAGES/007.png",
+    "CARDS/IMAGES/008.png",
     "Desconhecido",
-    "007",
+    "008",
     "1",
     "Artilheiro",
     "Normal",
@@ -173,16 +195,16 @@ var c007 = [
     "10"
 ]
 
-function getCard007() {
-    return c007;
+function getCard008() {
+    return c008;
 }
 
-//008
-var c008 = [
+//009
+var c009 = [
     "Mancin",
-    "CARDS/IMAGES/008.png",
+    "CARDS/IMAGES/009.png",
     "Desconhecido",
-    "008",
+    "009",
     "8",
     "Goleiro",
     "Normal",
@@ -195,16 +217,16 @@ var c008 = [
     "15"
 ]
 
-function getCard008() {
-    return c008;
+function getCard009() {
+    return c009;
 }
 
-//009
-var c009 = [
+//010
+var c010 = [
     "Nath",
-    "CARDS/IMAGES/009.png",
+    "CARDS/IMAGES/010.png",
     "Desconhecido",
-    "009",
+    "010",
     "77",
     "Batedora",
     "Normal",
@@ -217,16 +239,16 @@ var c009 = [
     "10"
 ]
 
-function getCard009() {
-    return c009;
+function getCard010() {
+    return c010;
 }
 
-//010
-var c010 = [
+//011
+var c011 = [
     "Rasguinha",
-    "CARDS/IMAGES/010.png",
+    "CARDS/IMAGES/011.png",
     "Henrique",
-    "010",
+    "011",
     "99",
     "Batedor",
     "Empréstimo",
@@ -239,16 +261,16 @@ var c010 = [
     "10"
 ]
 
-function getCard010() {
-    return c010;
+function getCard011() {
+    return c011;
 }
 
-//011
-var c011 = [
+//012
+var c012 = [
     "Valente",
-    "CARDS/IMAGES/011.png",
+    "CARDS/IMAGES/012.png",
     "Grifos da Guanabara",
-    "011",
+    "012",
     "9",
     "Artilheira / Batedora",
     "Empréstimo",
@@ -261,52 +283,30 @@ var c011 = [
     "07"
 ]
 
-function getCard011() {
-    return c011;
-}
-
-//012
-var c012 = [
-    "Ysa",
-    "CARDS/IMAGES/012.png",
-    "Rafael Rodrigues",
-    "012",
-    "31",
-    "Artilheira / Apanhadora",
-    "Empréstimo",
-    "Dark Wolf Quidditch",
-    "CARDS/LOGOS/TEAMS/DWQ.png",
-    "10",
-    "11",
-    "10",
-    "10",
-    "11"
-]
-
 function getCard012() {
     return c012;
 }
 
 //----------------------
-//Dragões B
+//Dragões da Tormenta
 //----------------------
 
 //013
 var c013 = [
-    "Bia",
+    "Dragões da Tormenta",
     "CARDS/IMAGES/013.png",
-    "@brunobasila",
+    "--",
     "013",
-    "64",
-    "Batedora",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "10",
-    "02",
-    "08",
-    "30",
-    "02"
+    "--",
+    "--",
+    "Brasão de time",
+    "Dragões da Tormenta",
+    "CARDS/LOGOS/TEAMS/DTA.png",
+    "--",
+    "--",
+    "--",
+    "--",
+    "--"
 ]
 
 function getCard013() {
@@ -315,20 +315,20 @@ function getCard013() {
 
 //014
 var c014 = [
-    "Bittencourt",
+    "Dragões da Tormenta",
     "CARDS/IMAGES/014.png",
-    "@brunobasila",
+    "Desconhecida",
     "014",
-    "88",
-    "Artilheiro",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "14",
-    "09",
-    "15",
-    "08",
-    "06"
+    "--",
+    "--",
+    "Fotografia do Time",
+    "Dragões da Tormenta",
+    "CARDS/LOGOS/TEAMS/DTA.png",
+    "--",
+    "--",
+    "--",
+    "--",
+    "--"
 ]
 
 function getCard014() {
@@ -337,20 +337,20 @@ function getCard014() {
 
 //015
 var c015 = [
-    "Cassio",
+    "Orsini",
     "CARDS/IMAGES/015.png",
-    "@brunobasila",
+    "Desconhecido",
     "015",
-    "34",
-    "Goleiro",
+    "12",
+    "Batedora",
     "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
+    "Dragões da Tormenta",
+    "CARDS/LOGOS/TEAMS/DTA.png",
+    "09",
     "10",
     "10",
-    "20",
-    "05",
-    "07"
+    "11",
+    "12"
 ]
 
 function getCard015() {
@@ -359,322 +359,10 @@ function getCard015() {
 
 //016
 var c016 = [
-    "Cesar",
+    "Aleixo",
     "CARDS/IMAGES/016.png",
     "@brunobasila",
     "016",
-    "27",
-    "Artilheiro",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "07",
-    "07",
-    "14",
-    "08",
-    "16"
-]
-
-function getCard016() {
-    return c016;
-}
-
-//017
-var c017 = [
-    "Dan",
-    "CARDS/IMAGES/017.png",
-    "@brunobasila",
-    "017",
-    "44",
-    "Goleiro",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "14",
-    "12",
-    "10",
-    "08",
-    "08"
-]
-
-function getCard017() {
-    return c017;
-}
-
-//018
-var c018 = [
-    "Fla",
-    "CARDS/IMAGES/018.png",
-    "@brunobasila",
-    "018",
-    "26",
-    "Artilheira",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "07",
-    "07",
-    "14",
-    "08",
-    "16"
-]
-
-function getCard018() {
-    return c018;
-}
-
-//019
-var c019 = [
-    "Flávia",
-    "CARDS/IMAGES/019.png",
-    "@brunobasila",
-    "019",
-    "14",
-    "Batedora",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "10",
-    "08",
-    "08",
-    "11",
-    "15"
-]
-
-function getCard019() {
-    return c019;
-}
-
-//020
-var c020 = [
-    "Girafa",
-    "CARDS/IMAGES/020.png",
-    "@brunobasila",
-    "020",
-    "20",
-    "Artilheira",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "06",
-    "12",
-    "06",
-    "14",
-    "14"
-]
-
-function getCard020() {
-    return c020;
-}
-
-//021
-var c021 = [
-    "Jay",
-    "CARDS/IMAGES/021.png",
-    "@danieldsouz_",
-    "021",
-    "71",
-    "Artilheira",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "20",
-    "06",
-    "08",
-    "10",
-    "08"
-]
-
-function getCard021() {
-    return c021;
-}
-
-//022
-var c022 = [
-    "Kinder",
-    "CARDS/IMAGES/022.png",
-    "@brunobasila",
-    "022",
-    "4",
-    "Batedor",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "00",
-    "17",
-    "10",
-    "12",
-    "13"
-]
-
-function getCard022() {
-    return c022;
-}
-
-//023
-var c023 = [
-    "Leo Chaves",
-    "CARDS/IMAGES/023.png",
-    "@brunobasila",
-    "023",
-    "0",
-    "Artilheiro",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "09",
-    "08",
-    "17",
-    "10",
-    "08"
-]
-
-function getCard023() {
-    return c023;
-}
-
-//024
-var c024 = [
-    "Leozao",
-    "CARDS/IMAGES/024.png",
-    "@brunobasila",
-    "024",
-    "95",
-    "Artilheiro",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "15",
-    "12",
-    "08",
-    "10",
-    "07"
-]
-
-function getCard024() {
-    return c024;
-}
-
-//025
-var c025 = [
-    "Lobo",
-    "CARDS/IMAGES/025.png",
-    "@danieldsouz_",
-    "025",
-    "23",
-    "Batedor",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "14",
-    "10",
-    "09",
-    "08",
-    "11"
-]
-
-function getCard025() {
-    return c025;
-}
-
-//026
-var c026 = [
-    "Lucas'",
-    "CARDS/IMAGES/026.png",
-    "@brunobasila",
-    "026",
-    "91",
-    "Artilheiro",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "05",
-    "16",
-    "07",
-    "15",
-    "09"
-]
-
-function getCard026() {
-    return c026;
-}
-
-//027
-var c027 = [
-    "Manocchi",
-    "CARDS/IMAGES/027.png",
-    "@brunobasila",
-    "027",
-    "22",
-    "Artilheira",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "11",
-    "11",
-    "09",
-    "15",
-    "06"
-]
-
-function getCard027() {
-    return c027;
-}
-
-//028
-var c028 = [
-    "Tigrinho",
-    "CARDS/IMAGES/028.png",
-    "@brunobasila",
-    "028",
-    "80",
-    "Batedora",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "06",
-    "12",
-    "10",
-    "12",
-    "12"
-]
-
-function getCard028() {
-    return c028;
-}
-
-//029
-var c029 = [
-    "Wiilly",
-    "CARDS/IMAGES/029.png",
-    "@brunobasila",
-    "029",
-    "31",
-    "Artilheiro / Apanhador",
-    "Normal",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "07",
-    "13",
-    "14",
-    "08",
-    "10"
-]
-
-function getCard029() {
-    return c029;
-}
-
-//----------------------
-//Dragões da Tormenta
-//----------------------
-
-//030
-var c030 = [
-    "Aleixo",
-    "CARDS/IMAGES/030.png",
-    "@brunobasila",
-    "030",
     "45",
     "Batedor / Apanhador",
     "Normal",
@@ -687,16 +375,16 @@ var c030 = [
     "19"
 ]
 
-function getCard030() {
-    return c030;
+function getCard016() {
+    return c016;
 }
 
-//031
-var c031 = [
+//017
+var c017 = [
     "Bigu",
-    "CARDS/IMAGES/031.png",
+    "CARDS/IMAGES/017.png",
     "@brunobasila",
-    "031",
+    "017",
     "99",
     "Batedor",
     "Normal",
@@ -709,16 +397,16 @@ var c031 = [
     "04"
 ]
 
-function getCard031() {
-    return c031;
+function getCard017() {
+    return c017;
 }
 
-//032
-var c032 = [
+//018
+var c018 = [
     "Bombom",
-    "CARDS/IMAGES/032.png",
+    "CARDS/IMAGES/018.png",
     "@brunobasila",
-    "032",
+    "018",
     "19",
     "Artilheira",
     "Normal",
@@ -731,16 +419,16 @@ var c032 = [
     "08"
 ]
 
-function getCard032() {
-    return c032;
+function getCard018() {
+    return c018;
 }
 
-//033
-var c033 = [
+//019
+var c019 = [
     "Cheddar",
-    "CARDS/IMAGES/033.png",
+    "CARDS/IMAGES/019.png",
     "@brunobasila",
-    "033",
+    "019",
     "18",
     "Batedora",
     "Normal",
@@ -753,16 +441,16 @@ var c033 = [
     "07"
 ]
 
-function getCard033() {
-    return c033;
+function getCard019() {
+    return c019;
 }
 
-//034
-var c034 = [
+//020
+var c020 = [
     "Denis",
-    "CARDS/IMAGES/034.png",
+    "CARDS/IMAGES/020.png",
     "@brunobasila",
-    "034",
+    "020",
     "21",
     "Artilheiro",
     "Normal",
@@ -775,16 +463,16 @@ var c034 = [
     "03"
 ]
 
-function getCard034() {
-    return c034;
+function getCard020() {
+    return c020;
 }
 
-//035
-var c035 = [
+//021
+var c021 = [
     "Fabinho",
-    "CARDS/IMAGES/035.png",
+    "CARDS/IMAGES/021.png",
     "@brunobasila",
-    "035",
+    "021",
     "9",
     "Artilheiro",
     "Normal",
@@ -797,16 +485,16 @@ var c035 = [
     "10"
 ]
 
-function getCard035() {
-    return c035;
+function getCard021() {
+    return c021;
 }
 
-//036
-var c036 = [
+//022
+var c022 = [
     "Jadinho",
-    "CARDS/IMAGES/036.png",
+    "CARDS/IMAGES/022.png",
     "@brunobasila",
-    "036",
+    "022",
     "77",
     "Artilheiro",
     "Normal",
@@ -819,16 +507,16 @@ var c036 = [
     "13"
 ]
 
-function getCard036() {
-    return c036;
+function getCard022() {
+    return c022;
 }
 
-//037
-var c037 = [
+//023
+var c023 = [
     "Leo Santi",
-    "CARDS/IMAGES/037.png",
+    "CARDS/IMAGES/023.png",
     "@brunobasila",
-    "037",
+    "023",
     "5",
     "Artilheiro",
     "Normal",
@@ -841,16 +529,16 @@ var c037 = [
     "06"
 ]
 
-function getCard037() {
-    return c037;
+function getCard023() {
+    return c023;
 }
 
-//038
-var c038 = [
+//024
+var c024 = [
     "Letícia",
-    "CARDS/IMAGES/038.png",
+    "CARDS/IMAGES/024.png",
     "Daniel Souza",
-    "038",
+    "024",
     "2",
     "Artillheira",
     "Normal",
@@ -863,16 +551,16 @@ var c038 = [
     "10"
 ]
 
-function getCard038() {
-    return c038;
+function getCard024() {
+    return c024;
 }
 
-//039
-var c039 = [
+//025
+var c025 = [
     "Malícia",
-    "CARDS/IMAGES/039.png",
+    "CARDS/IMAGES/025.png",
     "@brunobasila",
-    "039",
+    "025",
     "13",
     "Batedora",
     "Normal",
@@ -885,16 +573,16 @@ var c039 = [
     "05"
 ]
 
-function getCard039() {
-    return c039;
+function getCard025() {
+    return c025;
 }
 
-//040
-var c040 = [
+//026
+var c026 = [
     "Nathan",
-    "CARDS/IMAGES/040.png",
+    "CARDS/IMAGES/026.png",
     "@mahmoura_",
-    "040",
+    "026",
     "7",
     "Artilheiro",
     "Normal",
@@ -907,16 +595,16 @@ var c040 = [
     "06"
 ]
 
-function getCard040() {
-    return c040;
+function getCard026() {
+    return c026;
 }
 
-//041
-var c041 = [
+//027
+var c027 = [
     "Dany",
-    "CARDS/IMAGES/041.png",
+    "CARDS/IMAGES/027.png",
     "Desconhecido",
-    "041",
+    "027",
     "51",
     "Artilheiro / Apanhador",
     "Normal",
@@ -929,16 +617,16 @@ var c041 = [
     "26"
 ]
 
-function getCard041() {
-    return c041;
+function getCard027() {
+    return c027;
 }
 
-//042
-var c042 = [
+//028
+var c028 = [
     "Torezani",
-    "CARDS/IMAGES/042.png",
+    "CARDS/IMAGES/028.png",
     "@brunobasila",
-    "042",
+    "028",
     "11",
     "Goleiro",
     "Normal",
@@ -951,20 +639,486 @@ var c042 = [
     "08"
 ]
 
+function getCard028() {
+    return c028;
+}
+
+//----------------------
+//Dragões B
+//----------------------
+
+//029
+var c029 = [
+    "Dragões B",
+    "CARDS/IMAGES/029.png",
+    "--",
+    "029",
+    "--",
+    "--",
+    "Brasão de time",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "--",
+    "--",
+    "--",
+    "--",
+    "--"
+]
+
+function getCard029() {
+    return c029;
+}
+
+//030
+var c030 = [
+    "Dragões B",
+    "CARDS/IMAGES/030.png",
+    "Desconhecido",
+    "030",
+    "--",
+    "--",
+    "Fotografia do Time",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "--",
+    "--",
+    "--",
+    "--",
+    "--"
+]
+
+function getCard030() {
+    return c030;
+}
+
+//031
+var c031 = [
+    "Bia",
+    "CARDS/IMAGES/031.png",
+    "@brunobasila",
+    "031",
+    "64",
+    "Batedora",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "10",
+    "02",
+    "08",
+    "30",
+    "02"
+]
+
+function getCard031() {
+    return c031;
+}
+
+//032
+var c032 = [
+    "Bittencourt",
+    "CARDS/IMAGES/032.png",
+    "@brunobasila",
+    "032",
+    "88",
+    "Artilheiro",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "14",
+    "09",
+    "15",
+    "08",
+    "06"
+]
+
+function getCard032() {
+    return c032;
+}
+
+//033
+var c033 = [
+    "Cassio",
+    "CARDS/IMAGES/033.png",
+    "@brunobasila",
+    "033",
+    "34",
+    "Goleiro",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "10",
+    "10",
+    "20",
+    "05",
+    "07"
+]
+
+function getCard033() {
+    return c033;
+}
+
+//034
+var c034 = [
+    "Cesar",
+    "CARDS/IMAGES/034.png",
+    "@brunobasila",
+    "034",
+    "27",
+    "Artilheiro",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "07",
+    "07",
+    "14",
+    "08",
+    "16"
+]
+
+function getCard034() {
+    return c034;
+}
+
+//035
+var c035 = [
+    "Dan",
+    "CARDS/IMAGES/035.png",
+    "@brunobasila",
+    "035",
+    "44",
+    "Goleiro",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "14",
+    "12",
+    "10",
+    "08",
+    "08"
+]
+
+function getCard035() {
+    return c035;
+}
+
+//036
+var c036 = [
+    "Fla",
+    "CARDS/IMAGES/036.png",
+    "@brunobasila",
+    "036",
+    "26",
+    "Artilheira",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "07",
+    "07",
+    "14",
+    "08",
+    "16"
+]
+
+function getCard036() {
+    return c036;
+}
+
+//037
+var c037 = [
+    "Flávia",
+    "CARDS/IMAGES/037.png",
+    "@brunobasila",
+    "037",
+    "14",
+    "Batedora",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "10",
+    "08",
+    "08",
+    "11",
+    "15"
+]
+
+function getCard037() {
+    return c037;
+}
+
+//038
+var c038 = [
+    "Girafa",
+    "CARDS/IMAGES/038.png",
+    "@brunobasila",
+    "038",
+    "20",
+    "Artilheira",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "06",
+    "12",
+    "06",
+    "14",
+    "14"
+]
+
+function getCard038() {
+    return c038;
+}
+
+//039
+var c039 = [
+    "Jay",
+    "CARDS/IMAGES/039.png",
+    "@danieldsouz_",
+    "039",
+    "71",
+    "Artilheira",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "20",
+    "06",
+    "08",
+    "10",
+    "08"
+]
+
+function getCard039() {
+    return c039;
+}
+
+//040
+var c040 = [
+    "Kinder",
+    "CARDS/IMAGES/040.png",
+    "@brunobasila",
+    "040",
+    "4",
+    "Batedor",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "00",
+    "17",
+    "10",
+    "12",
+    "13"
+]
+
+function getCard040() {
+    return c040;
+}
+
+//041
+var c041 = [
+    "Leo Chaves",
+    "CARDS/IMAGES/041.png",
+    "@brunobasila",
+    "041",
+    "0",
+    "Artilheiro",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "09",
+    "08",
+    "17",
+    "10",
+    "08"
+]
+
+function getCard041() {
+    return c041;
+}
+
+//042
+var c042 = [
+    "Leozao",
+    "CARDS/IMAGES/042.png",
+    "@brunobasila",
+    "042",
+    "95",
+    "Artilheiro",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "15",
+    "12",
+    "08",
+    "10",
+    "07"
+]
+
 function getCard042() {
     return c042;
+}
+
+//043
+var c043 = [
+    "Lobo",
+    "CARDS/IMAGES/043.png",
+    "@danieldsouz_",
+    "043",
+    "23",
+    "Batedor",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "14",
+    "10",
+    "09",
+    "08",
+    "11"
+]
+
+function getCard043() {
+    return c043;
+}
+
+//044
+var c044 = [
+    "Lucas'",
+    "CARDS/IMAGES/044.png",
+    "@brunobasila",
+    "044",
+    "91",
+    "Artilheiro",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "05",
+    "16",
+    "07",
+    "15",
+    "09"
+]
+
+function getCard044() {
+    return c044;
+}
+
+//045
+var c045 = [
+    "Manocchi",
+    "CARDS/IMAGES/045.png",
+    "@brunobasila",
+    "045",
+    "22",
+    "Artilheira",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "11",
+    "11",
+    "09",
+    "15",
+    "06"
+]
+
+function getCard045() {
+    return c045;
+}
+
+//046
+var c046 = [
+    "Tigrinho",
+    "CARDS/IMAGES/046.png",
+    "@brunobasila",
+    "046",
+    "80",
+    "Batedora",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "06",
+    "12",
+    "10",
+    "12",
+    "12"
+]
+
+function getCard046() {
+    return c046;
+}
+
+//047
+var c047 = [
+    "Wiilly",
+    "CARDS/IMAGES/047.png",
+    "@brunobasila",
+    "047",
+    "31",
+    "Artilheiro / Apanhador",
+    "Normal",
+    "Dragões B",
+    "CARDS/LOGOS/TEAMS/DTB.png",
+    "07",
+    "13",
+    "14",
+    "08",
+    "10"
+]
+
+function getCard047() {
+    return c047;
 }
 
 //----------------------
 //Kelpies do Órion
 //----------------------
 
-//043
-var c043 = [
+//048
+var c048 = [
+    "Kelpies do Órion",
+    "CARDS/IMAGES/048.png",
+    "--",
+    "048",
+    "--",
+    "--",
+    "Brasão de time",
+    "Kelpies do Órion",
+    "CARDS/LOGOS/TEAMS/KDO.png",
+    "--",
+    "--",
+    "--",
+    "--",
+    "--"
+]
+
+function getCard048() {
+    return c048;
+}
+
+//049
+var c049 = [
+    "Kelpies do Órion",
+    "CARDS/IMAGES/049.png",
+    "Desconhecido",
+    "049",
+    "--",
+    "--",
+    "Fotografia do Time",
+    "Kelpies do Órion",
+    "CARDS/LOGOS/TEAMS/KDO.png",
+    "--",
+    "--",
+    "--",
+    "--",
+    "--"
+]
+
+function getCard049() {
+    return c049;
+}
+
+//050
+var c050 = [
     "Cris",
-    "CARDS/IMAGES/043.png",
+    "CARDS/IMAGES/050.png",
     "@brunobasila",
-    "043",
+    "050",
     "30",
     "Goleiro",
     "Normal",
@@ -977,16 +1131,16 @@ var c043 = [
     "03"
 ]
 
-function getCard043() {
-    return c043;
+function getCard050() {
+    return c050;
 }
 
-//044
-var c044 = [
+//051
+var c051 = [
     "Henrique",
-    "CARDS/IMAGES/044.png",
+    "CARDS/IMAGES/051.png",
     "@brunobasila",
-    "044",
+    "051",
     "24",
     "Artilheiro",
     "Empréstimo",
@@ -999,16 +1153,16 @@ var c044 = [
     "05"
 ]
 
-function getCard044() {
-    return c044;
+function getCard051() {
+    return c051;
 }
 
-//045
-var c045 = [
+//052
+var c052 = [
     "Kitty",
-    "CARDS/IMAGES/045.png",
+    "CARDS/IMAGES/052.png",
     "@brunobasila",
-    "045",
+    "052",
     "15",
     "Artilheira",
     "Normal",
@@ -1021,16 +1175,16 @@ var c045 = [
     "08"
 ]
 
-function getCard045() {
-    return c045;
+function getCard052() {
+    return c052;
 }
 
-//046
-var c046 = [
+//053
+var c053 = [
     "Tata",
-    "CARDS/IMAGES/046.png",
+    "CARDS/IMAGES/053.png",
     "@brunobasila",
-    "046",
+    "053",
     "6",
     "Artilheira",
     "Normal",
@@ -1043,20 +1197,42 @@ var c046 = [
     "03"
 ]
 
-function getCard046() {
-    return c046;
+function getCard053() {
+    return c053;
 }
 
 //----------------------
 //Panteras Paulistas
 //----------------------
 
-//047
-var c047 = [
+//054
+var c054 = [
+    "Panteras Paulistas",
+    "CARDS/IMAGES/054.png",
+    "--",
+    "054",
+    "--",
+    "--",
+    "Brasão de time",
+    "Panteras Paulistas",
+    "CARDS/LOGOS/TEAMS/PPA.png",
+    "--",
+    "--",
+    "--",
+    "--",
+    "--"
+]
+
+function getCard054() {
+    return c054;
+}
+
+//055
+var c055 = [
     "eValente",
-    "CARDS/IMAGES/047.png",
+    "CARDS/IMAGES/055.png",
     "@mahmoura_",
-    "047",
+    "055",
     "8",
     "Goleiro / Artilheiro",
     "Normal",
@@ -1069,16 +1245,16 @@ var c047 = [
     "06"
 ]
 
-function getCard047() {
-    return c047;
+function getCard055() {
+    return c055;
 }
 
-//048
-var c048 = [
+//056
+var c056 = [
     "Garoto",
-    "CARDS/IMAGES/048.png",
+    "CARDS/IMAGES/056.png",
     "@danieldsouz_",
-    "048",
+    "056",
     "24",
     "Goleiro",
     "Normal",
@@ -1091,16 +1267,16 @@ var c048 = [
     "10"
 ]
 
-function getCard048() {
-    return c048;
+function getCard056() {
+    return c056;
 }
 
-//049
-var c049 = [
+//057
+var c057 = [
     "Kiq",
-    "CARDS/IMAGES/049.png",
+    "CARDS/IMAGES/057.png",
     "@danieldsouz_",
-    "049",
+    "057",
     "99",
     "Batedor",
     "Normal",
@@ -1113,16 +1289,16 @@ var c049 = [
     "08"
 ]
 
-function getCard049() {
-    return c049;
+function getCard057() {
+    return c057;
 }
 
-//050
-var c050 = [
+//058
+var c058 = [
     "Luna",
-    "CARDS/IMAGES/050.png",
+    "CARDS/IMAGES/058.png",
     "Tahyna Caneloi",
-    "050",
+    "058",
     "7",
     "Batedora",
     "Normal",
@@ -1135,16 +1311,16 @@ var c050 = [
     "20"
 ]
 
-function getCard050() {
-    return c050;
+function getCard058() {
+    return c058;
 }
 
-//051
-var c051 = [
+//059
+var c059 = [
     "Max",
-    "CARDS/IMAGES/051.png",
+    "CARDS/IMAGES/059.png",
     "Desconhecido",
-    "051",
+    "059",
     "14",
     "Artilheiro",
     "Normal",
@@ -1157,16 +1333,16 @@ var c051 = [
     "10"
 ]
 
-function getCard051() {
-    return c051;
+function getCard059() {
+    return c059;
 }
 
-//052
-var c052 = [
+//060
+var c060 = [
     "Philipi",
-    "CARDS/IMAGES/052.png",
+    "CARDS/IMAGES/060.png",
     "Cynara Wainner",
-    "052",
+    "060",
     "10",
     "Artilheiro",
     "Empréstimo",
@@ -1179,16 +1355,16 @@ var c052 = [
     "10"
 ]
 
-function getCard052() {
-    return c052;
+function getCard060() {
+    return c060;
 }
 
-//053
-var c053 = [
+//061
+var c061 = [
     "Tank",
-    "CARDS/IMAGES/053.png",
+    "CARDS/IMAGES/061.png",
     "@mahmoura_",
-    "053",
+    "061",
     "13",
     "Artilheiro",
     "Normal",
@@ -1201,16 +1377,16 @@ var c053 = [
     "08"
 ]
 
-function getCard053() {
-    return c053;
+function getCard061() {
+    return c061;
 }
 
-//054
-var c054 = [
+//062
+var c062 = [
     "Thay",
-    "CARDS/IMAGES/054.png",
+    "CARDS/IMAGES/062.png",
     "Desconhecido",
-    "054",
+    "062",
     "18",
     "Artilheira",
     "Normal",
@@ -1223,16 +1399,16 @@ var c054 = [
     "05"
 ]
 
-function getCard054() {
-    return c054;
+function getCard062() {
+    return c062;
 }
 
-//055
-var c055 = [
+//063
+var c063 = [
     "Vick Vaporub",
-    "CARDS/IMAGES/055.png",
+    "CARDS/IMAGES/063.png",
     "Desconhecido",
-    "055",
+    "063",
     "15",
     "Artilheira",
     "Normal",
@@ -1245,20 +1421,64 @@ var c055 = [
     "09"
 ]
 
-function getCard055() {
-    return c055;
+function getCard063() {
+    return c063;
 }
 
 //----------------------
 //Quimera de Dellos
 //----------------------
 
-//056
-var c056 = [
+//064
+var c064 = [
+    "Quimera da Dellos",
+    "CARDS/IMAGES/064.png",
+    "--",
+    "064",
+    "--",
+    "--",
+    "Brasão de time",
+    "Quimera de Dellos",
+    "CARDS/LOGOS/TEAMS/QDD.png",
+    "--",
+    "--",
+    "--",
+    "--",
+    "--"
+]
+
+function getCard064() {
+    return c064;
+}
+
+//065
+var c065 = [
+    "Quimera de Dellos",
+    "CARDS/IMAGES/065.png",
+    "Desconhecido",
+    "065",
+    "--",
+    "--",
+    "Fotografia do Time",
+    "Quimera de Dellos",
+    "CARDS/LOGOS/TEAMS/QDD.png",
+    "--",
+    "--",
+    "--",
+    "--",
+    "--"
+]
+
+function getCard065() {
+    return c065;
+}
+
+//066
+var c066 = [
     "A Manda",
-    "CARDS/IMAGES/056.png",
+    "CARDS/IMAGES/066.png",
     "@sam.marcelao",
-    "056",
+    "066",
     "25",
     "Goleira / Artilheira",
     "Normal",
@@ -1271,16 +1491,16 @@ var c056 = [
     "00"
 ]
 
-function getCard056() {
-    return c056;
+function getCard066() {
+   return c066;
 }
 
-//057
-var c057 = [
+//067
+var c067 = [
     "Camila",
-    "CARDS/IMAGES/057.png",
+    "CARDS/IMAGES/067.png",
     "Laís Valente",
-    "057",
+    "067",
     "06",
     "Artilheira / Batedora",
     "Empréstimo",
@@ -1293,16 +1513,16 @@ var c057 = [
     "02"
 ]
 
-function getCard057() {
-    return c057;
+function getCard067() {
+    return c067;
 }
 
-//058
-var c058 = [
+//068
+var c068 = [
     "Day",
-    "CARDS/IMAGES/058.png",
+    "CARDS/IMAGES/068.png",
     "Desconhecido",
-    "058",
+    "068",
     "10",
     "Batedora",
     "Normal",
@@ -1315,16 +1535,16 @@ var c058 = [
     "08"
 ]
 
-function getCard058() {
-    return c058;
+function getCard068() {
+    return c068;
 }
 
-//059
-var c059 = [
+//069
+var c069 = [
     "Diogo",
-    "CARDS/IMAGES/059.png",
+    "CARDS/IMAGES/069.png",
     "Desconhecido",
-    "059",
+    "069",
     "09",
     "Artilheiro",
     "Normal",
@@ -1337,16 +1557,16 @@ var c059 = [
     "11"
 ]
 
-function getCard059() {
-    return c059;
+function getCard069() {
+    return c069;
 }
 
-//060
-var c060 = [
+//070
+var c070 = [
     "F. Júnior",
-    "CARDS/IMAGES/060.png",
+    "CARDS/IMAGES/070.png",
     "Iara L. Gomes",
-    "060",
+    "070",
     "05",
     "Goleiro",
     "Normal",
@@ -1359,16 +1579,16 @@ var c060 = [
     "10"
 ]
 
-function getCard060() {
-    return c060;
+function getCard070() {
+    return c070;
 }
 
-//061
-var c061 = [
+//071
+var c071 = [
     "Fenrir",
-    "CARDS/IMAGES/061.png",
+    "CARDS/IMAGES/071.png",
     "@brunobasila",
-    "061",
+    "071",
     "51",
     "Goleiro / Artilheiro",
     "Normal",
@@ -1381,16 +1601,16 @@ var c061 = [
     "06"
 ]
 
-function getCard061() {
-    return c061;
+function getCard071() {
+    return c071;
 }
 
-//062
-var c062 = [
+//072
+var c072 = [
     "Gabriel",
-    "CARDS/IMAGES/062.png",
+    "CARDS/IMAGES/072.png",
     "@sam.marcelao",
-    "062",
+    "072",
     "07",
     "Batedor",
     "Normal",
@@ -1403,16 +1623,16 @@ var c062 = [
     "06"
 ]
 
-function getCard062() {
-    return c062;
+function getCard072() {
+    return c072;
 }
 
-//063
-var c063 = [
+//073
+var c073 = [
     "Gimenez",
-    "CARDS/IMAGES/063.png",
+    "CARDS/IMAGES/073.png",
     "@sam.marcelao",
-    "063",
+    "073",
     "18",
     "Artilheira",
     "Normal",
@@ -1425,16 +1645,16 @@ var c063 = [
     "08"
 ]
 
-function getCard063() {
-    return c063;
+function getCard073() {
+    return c073;
 }
 
-//064
-var c064 = [
+//074
+var c074 = [
     "Gunis",
-    "CARDS/IMAGES/064.png",
+    "CARDS/IMAGES/074.png",
     "@sam.marcelao",
-    "064",
+    "074",
     "13",
     "Artilheiro",
     "Normal",
@@ -1447,16 +1667,16 @@ var c064 = [
     "12"
 ]
 
-function getCard064() {
-    return c064;
+function getCard074() {
+    return c074;
 }
 
-//065
-var c065 = [
+//075
+var c075 = [
     "Jubs",
-    "CARDS/IMAGES/065.png",
+    "CARDS/IMAGES/075.png",
     "@brunobasila",
-    "065",
+    "075",
     "98",
     "Batedora",
     "Normal",
@@ -1469,16 +1689,16 @@ var c065 = [
     "07"
 ]
 
-function getCard065() {
-    return c065;
+function getCard075() {
+    return c075;
 }
 
-//066
-var c066 = [
+//076
+var c076 = [
     "KnS",
-    "CARDS/IMAGES/066.png",
+    "CARDS/IMAGES/076.png",
     "@brunobasila",
-    "066",
+    "076",
     "02",
     "Batedor",
     "Normal",
@@ -1491,16 +1711,16 @@ var c066 = [
     "07"
 ]
 
-function getCard066() {
-    return c066;
+function getCard076() {
+    return c076;
 }
 
-//067
-var c067 = [
+//077
+var c077 = [
     "Mariih",
-    "CARDS/IMAGES/067.png",
+    "CARDS/IMAGES/077.png",
     "@brunobasila",
-    "067",
+    "077",
     "23",
     "Batedora",
     "Normal",
@@ -1513,16 +1733,16 @@ var c067 = [
     "12"
 ]
 
-function getCard067() {
-    return c067;
+function getCard077() {
+    return c077;
 }
 
-//068
-var c068 = [
+//078
+var c078 = [
     "Mique",
-    "CARDS/IMAGES/068.png",
+    "CARDS/IMAGES/078.png",
     "@brunobasila",
-    "068",
+    "078",
     "03",
     "Artilheira",
     "Normal",
@@ -1535,16 +1755,16 @@ var c068 = [
     "09"
 ]
 
-function getCard068() {
-    return c068;
+function getCard078() {
+    return c078;
 }
 
-//069
-var c069 = [
+//079
+var c079 = [
     "Naxu",
-    "CARDS/IMAGES/069.png",
+    "CARDS/IMAGES/079.png",
     "@brunobasila",
-    "069",
+    "079",
     "72",
     "Artilheira",
     "Normal",
@@ -1557,16 +1777,16 @@ var c069 = [
     "11"
 ]
 
-function getCard069() {
-    return c069;
+function getCard079() {
+    return c079;
 }
 
-//070
-var c070 = [
+//080
+var c080 = [
     "Padilha",
-    "CARDS/IMAGES/070.png",
+    "CARDS/IMAGES/080.png",
     "@sam.marcelao",
-    "070",
+    "080",
     "42",
     "Goleiro / Artilheiro",
     "Normal",
@@ -1579,16 +1799,16 @@ var c070 = [
     "11"
 ]
 
-function getCard070() {
-    return c070;
+function getCard080() {
+    return c080;
 }
 
-//071
-var c071 = [
+//081
+var c081 = [
     "Resquin",
-    "CARDS/IMAGES/071.png",
+    "CARDS/IMAGES/081.png",
     "@brunobasila",
-    "071",
+    "081",
     "00",
     "Artilheiro / Apanhador",
     "Normal",
@@ -1601,16 +1821,16 @@ var c071 = [
     "00"
 ]
 
-function getCard071() {
-    return c071;
+function getCard081() {
+    return c081;
 }
 
-//072
-var c072 = [
+//082
+var c082 = [
     "Sam",
-    "CARDS/IMAGES/072.png",
+    "CARDS/IMAGES/082.png",
     "@brunobasila",
-    "072",
+    "082",
     "14",
     "Batedor",
     "Normal",
@@ -1623,16 +1843,16 @@ var c072 = [
     "00"
 ]
 
-function getCard072() {
-    return c072;
+function getCard082() {
+    return c082;
 }
 
-//073
-var c073 = [
+//083
+var c083 = [
     "Zigor",
-    "CARDS/IMAGES/073.png",
+    "CARDS/IMAGES/083.png",
     "@brunobasila",
-    "073",
+    "083",
     "04",
     "Batedor",
     "Normal",
@@ -1645,20 +1865,64 @@ var c073 = [
     "05"
 ]
 
-function getCard073() {
-    return c073;
+function getCard083() {
+    return c083;
 }
 
 //----------------------
 //Serpentes Flamejantes
 //----------------------
 
-//074
-var c074 = [
+//084
+var c084 = [
+    "Serpentes Flamejantes",
+    "CARDS/IMAGES/084.png",
+    "--",
+    "084",
+    "--",
+    "--",
+    "Brasão de time",
+    "Serpentes Flamejantes",
+    "CARDS/LOGOS/TEAMS/SPF.png",
+    "--",
+    "--",
+    "--",
+    "--",
+    "--"
+]
+
+function getCard084() {
+    return c084;
+}
+
+//085
+var c085 = [
+    "Serpentes Flamejantes",
+    "CARDS/IMAGES/085.png",
+    "Desconhecido",
+    "085",
+    "--",
+    "--",
+    "Fotografia do Time",
+    "Serpentes Flamejantes",
+    "CARDS/LOGOS/TEAMS/SPF.png",
+    "--",
+    "--",
+    "--",
+    "--",
+    "--"
+]
+
+function getCard085() {
+    return c085;
+}
+
+//086
+var c086 = [
     "Batman",
-    "CARDS/IMAGES/074.png",
+    "CARDS/IMAGES/086.png",
     "Iumanoob",
-    "074",
+    "086",
     "2",
     "Artilheiro / Batedor",
     "Empréstimo",
@@ -1671,16 +1935,16 @@ var c074 = [
     "05"
 ]
 
-function getCard074() {
-    return c074;
+function getCard086() {
+    return c086;
 }
 
-//075
-var c075 = [
+//087
+var c087 = [
     "Bia Vitória",
-    "CARDS/IMAGES/075.png",
+    "CARDS/IMAGES/087.png",
     "@brunobasila",
-    "075",
+    "087",
     "74",
     "Artilheira",
     "Normal",
@@ -1693,16 +1957,16 @@ var c075 = [
     "00"
 ]
 
-function getCard075() {
-    return c075;
+function getCard087() {
+    return c087;
 }
 
-//076
-var c076 = [
+//088
+var c088 = [
     "Cassia",
-    "CARDS/IMAGES/076.png",
+    "CARDS/IMAGES/088.png",
     "@mahmoura / @brunobasila",
-    "076",
+    "088",
     "8",
     "Artilheira / Apanhadora",
     "Normal",
@@ -1715,16 +1979,16 @@ var c076 = [
     "00"
 ]
 
-function getCard076() {
-    return c076;
+function getCard088() {
+    return c088;
 }
 
-//077
-var c077 = [
+//089
+var c089 = [
     "Destin",
-    "CARDS/IMAGES/077.png",
+    "CARDS/IMAGES/089.png",
     "Vinícius Alves",
-    "077",
+    "089",
     "9",
     "Batedor",
     "Normal",
@@ -1737,16 +2001,16 @@ var c077 = [
     "10"
 ]
 
-function getCard077() {
-    return c077;
+function getCard089() {
+    return c089;
 }
 
-//078
-var c078 = [
+//090
+var c090 = [
     "Iwassa",
-    "CARDS/IMAGES/078.png",
+    "CARDS/IMAGES/090.png",
     "@brunobasila",
-    "078",
+    "090",
     "42",
     "Batedor",
     "Normal",
@@ -1759,16 +2023,16 @@ var c078 = [
     "06"
 ]
 
-function getCard078() {
-    return c078;
+function getCard090() {
+    return c090;
 }
 
-//079
-var c079 = [
+//091
+var c091 = [
     "Mágico",
-    "CARDS/IMAGES/079.png",
+    "CARDS/IMAGES/091.png",
     "@augustostos",
-    "079",
+    "091",
     "77",
     "Artilheiro",
     "Normal",
@@ -1781,16 +2045,16 @@ var c079 = [
     "03"
 ]
 
-function getCard079() {
-    return c079;
+function getCard091() {
+    return c091;
 }
 
-//080
-var c080 = [
+//092
+var c092 = [
     "Maridão",
-    "CARDS/IMAGES/080.png",
+    "CARDS/IMAGES/092.png",
     "@brunobasila",
-    "080",
+    "092",
     "00",
     "Goleiro",
     "Normal",
@@ -1803,16 +2067,16 @@ var c080 = [
     "00"
 ]
 
-function getCard080() {
-    return c080;
+function getCard092() {
+    return c092;
 }
 
-//081
-var c081 = [
+//093
+var c093 = [
     "Maridona",
-    "CARDS/IMAGES/081.png",
+    "CARDS/IMAGES/093.png",
     "@brunobasila",
-    "081",
+    "093",
     "7",
     "Batedora",
     "Normal",
@@ -1825,16 +2089,16 @@ var c081 = [
     "20"
 ]
 
-function getCard081() {
-    return c081;
+function getCard093() {
+    return c093;
 }
 
-//082
-var c082 = [
+//094
+var c094 = [
     "Moni",
-    "CARDS/IMAGES/082.png",
+    "CARDS/IMAGES/094.png",
     "@brunobasila",
-    "082",
+    "094",
     "3",
     "Artilheira",
     "Normal",
@@ -1847,16 +2111,16 @@ var c082 = [
     "08"
 ]
 
-function getCard082() {
-    return c082;
+function getCard094() {
+    return c094;
 }
 
-//083
-var c083 = [
+//095
+var c095 = [
     "Oliveira",
-    "CARDS/IMAGES/083.png",
+    "CARDS/IMAGES/095.png",
     "@brunobasila",
-    "083",
+    "095",
     "4",
     "Goleiro / Artilheiro",
     "Normal",
@@ -1869,16 +2133,16 @@ var c083 = [
     "10"
 ]
 
-function getCard083() {
-    return c083;
+function getCard095() {
+    return c095;
 }
 
-//084
-var c084 = [
+//096
+var c096 = [
     "Rodrigues",
-    "CARDS/IMAGES/084.png",
+    "CARDS/IMAGES/096.png",
     "@brunobasila",
-    "084",
+    "096",
     "10",
     "Artilheiro",
     "Normal",
@@ -1891,16 +2155,16 @@ var c084 = [
     "05"
 ]
 
-function getCard084() {
-    return c084;
+function getCard096() {
+    return c096;
 }
 
-//085
-var c085 = [
+//097
+var c097 = [
     "Samuel",
-    "CARDS/IMAGES/085.png",
+    "CARDS/IMAGES/097.png",
     "Vinícius Alves",
-    "085",
+    "097",
     "79",
     "Artilheiro",
     "Normal",
@@ -1913,16 +2177,16 @@ var c085 = [
     "20"
 ]
 
-function getCard085() {
-    return c085;
+function getCard097() {
+    return c097;
 }
 
-//086
-var c086 = [
+//098
+var c098 = [
     "Tempestade",
-    "CARDS/IMAGES/086.png",
+    "CARDS/IMAGES/098.png",
     "Desconhecido",
-    "086",
+    "098",
     "14",
     "Artilheira / Apanhadora",
     "Empréstimo",
@@ -1935,16 +2199,16 @@ var c086 = [
     "09"
 ]
 
-function getCard086() {
-    return c086;
+function getCard098() {
+    return c098;
 }
 
-//087
-var c087 = [
+//099
+var c099 = [
     "Velma",
-    "CARDS/IMAGES/087.png",
+    "CARDS/IMAGES/099.png",
     "@brunobasila",
-    "087",
+    "099",
     "71",
     "Artilheira / Batedora",
     "Normal",
@@ -1957,16 +2221,16 @@ var c087 = [
     "26"
 ]
 
-function getCard087() {
-    return c087;
+function getCard099() {
+    return c099;
 }
 
-//088
-var c088 = [
+//100
+var c100 = [
     "Vini",
-    "CARDS/IMAGES/088.png",
+    "CARDS/IMAGES/100.png",
     "@brunobasila",
-    "088",
+    "100",
     "21",
     "Batedor",
     "Normal",
@@ -1979,16 +2243,16 @@ var c088 = [
     "29"
 ]
 
-function getCard088() {
-    return c088;
+function getCard100() {
+    return c100;
 }
 
-//089
-var c089 = [
+//101
+var c101 = [
     "Wiil",
-    "CARDS/IMAGES/089.png",
+    "CARDS/IMAGES/101.png",
     "@brunobasila",
-    "089",
+    "101",
     "11",
     "Artilheiro",
     "Normal",
@@ -2001,289 +2265,25 @@ var c089 = [
     "05"
 ]
 
-function getCard089() {
-    return c089;
+function getCard101() {
+    return c101;
 }
 
 //----------------------
 //Stormbird Quadribol
 //----------------------
 
-//090
-var c090 = [
-    "Cynara",
-    "CARDS/IMAGES/090.png",
-    "Luly Oliveira",
-    "090",
-    "70",
-    "Batedora",
-    "Empréstimo",
-    "Stormbird Quadribol",
-    "CARDS/LOGOS/TEAMS/SBQ.png",
-    "10",
-    "10",
-    "10",
-    "12",
-    "10"
-]
-
-function getCard090() {
-    return c090;
-}
-
-//091
-var c091 = [
-    "Dan Lacerda",
-    "CARDS/IMAGES/091.png",
-    "@vini_pics",
-    "091",
-    "20",
-    "Batedor",
-    "Normal",
-    "Stormbird Quadribol",
-    "CARDS/LOGOS/TEAMS/SBQ.png",
-    "11",
-    "08",
-    "12",
-    "08",
-    "13"
-]
-
-function getCard091() {
-    return c091;
-}
-
-//092
-var c092 = [
-    "Dominique",
-    "CARDS/IMAGES/092.png",
-    "@vini_pics",
-    "092",
-    "5",
-    "Artilheiro",
-    "Normal",
-    "Stormbird Quadribol",
-    "CARDS/LOGOS/TEAMS/SBQ.png",
-    "24",
-    "08",
-    "05",
-    "08",
-    "07"
-]
-
-function getCard092() {
-    return c092;
-}
-
-//093
-var c093 = [
-    "Fernanda",
-    "CARDS/IMAGES/093.png",
-    "@vini_pics",
-    "093",
-    "13",
-    "Artilheira",
-    "Normal",
-    "Stormbird Quadribol",
-    "CARDS/LOGOS/TEAMS/SBQ.png",
-    "10",
-    "10",
-    "05",
-    "20",
-    "07"
-]
-
-function getCard093() {
-    return c093;
-}
-
-//094
-var c094 = [
-    "Gracy",
-    "CARDS/IMAGES/094.png",
-    "@vini_pics",
-    "094",
-    "8",
-    "Batedora",
-    "Normal",
-    "Stormbird Quadribol",
-    "CARDS/LOGOS/TEAMS/SBQ.png",
-    "10",
-    "09",
-    "12",
-    "14",
-    "07"
-]
-
-function getCard094() {
-    return c094;
-}
-
-//095
-var c095 = [
-    "Gui Correa",
-    "CARDS/IMAGES/095.png",
-    "@vini_pics",
-    "095",
-    "25",
-    "Artilheiro",
-    "Normal",
-    "Stormbird Quadribol",
-    "CARDS/LOGOS/TEAMS/SBQ.png",
-    "14",
-    "12",
-    "07",
-    "13",
-    "06"
-]
-
-function getCard095() {
-    return c095;
-}
-
-//096
-var c096 = [
-    "Kelvin",
-    "CARDS/IMAGES/096.png",
-    "@vini_pics",
-    "096",
-    "4",
-    "Artilheiro",
-    "Normal",
-    "Stormbird Quadribol",
-    "CARDS/LOGOS/TEAMS/SBQ.png",
-    "20",
-    "10",
-    "05",
-    "12",
-    "05"
-]
-
-function getCard096() {
-    return c096;
-}
-
-//097
-var c097 = [
-    "Larissa",
-    "CARDS/IMAGES/097.png",
-    "@vini_pics",
-    "097",
-    "26",
-    "Batedora",
-    "Normal",
-    "Stormbird Quadribol",
-    "CARDS/LOGOS/TEAMS/SBQ.png",
-    "09",
-    "12",
-    "05",
-    "17",
-    "09"
-]
-
-function getCard097() {
-    return c097;
-}
-
-//098
-var c098 = [
-    "Miguel",
-    "CARDS/IMAGES/098.png",
-    "@vini_pics",
-    "098",
-    "07",
-    "Goleiro",
-    "Normal",
-    "Stormbird Quadribol",
-    "CARDS/LOGOS/TEAMS/SBQ.png",
-    "22",
-    "05",
-    "05",
-    "10",
-    "10"
-]
-
-function getCard098() {
-    return c098;
-}
-
-//099
-var c099 = [
-    "Vinicius André",
-    "CARDS/IMAGES/099.png",
-    "@vini_pics",
-    "099",
-    "20",
-    "Apanhador",
-    "Normal",
-    "Stormbird Quadribol",
-    "CARDS/LOGOS/TEAMS/SBQ.png",
-    "10",
-    "05",
-    "12",
-    "12",
-    "10"
-]
-
-function getCard099() {
-    return c099;
-}
-
-//100
-var c100 = [
-    "Wagner",
-    "CARDS/IMAGES/100.png",
-    "@viv_pics",
-    "100",
-    "21",
-    "Artilheiro",
-    "Normal",
-    "Stormbird Quadribol",
-    "CARDS/LOGOS/TEAMS/SBQ.png",
-    "15",
-    "06",
-    "15",
-    "10",
-    "06"
-]
-
-function getCard100() {
-    return c100;
-}
-
-//101
-var c101 = [
-    "Wege",
-    "CARDS/IMAGES/101.png",
-    "Cynara Wainner",
-    "101",
-    "77",
-    "Artilheira",
-    "Empréstimo",
-    "Stormbird Quadribol",
-    "CARDS/LOGOS/TEAMS/SBQ.png",
-    "12",
-    "10",
-    "08",
-    "15",
-    "07"
-]
-
-function getCard101() {
-    return c101;
-}
-
 //102
 var c102 = [
-    "Panteras Paulistas",
+    "Stormbird Quadribol",
     "CARDS/IMAGES/102.png",
     "--",
     "102",
     "--",
     "--",
     "Brasão de time",
-    "Panteras Paulistas",
-    "CARDS/LOGOS/TEAMS/PPA.png",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
     "--",
     "--",
     "--",
@@ -2297,15 +2297,15 @@ function getCard102() {
 
 //103
 var c103 = [
-    "Quimera da Dellos",
+    "Stormbird Quadribol",
     "CARDS/IMAGES/103.png",
-    "--",
+    "Desconhecido",
     "103",
     "--",
     "--",
-    "Brasão de time",
-    "Quimera de Dellos",
-    "CARDS/LOGOS/TEAMS/QDD.png",
+    "Fotografia do Time",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
     "--",
     "--",
     "--",
@@ -2319,20 +2319,20 @@ function getCard103() {
 
 //104
 var c104 = [
-    "Dragões da Tormenta",
+    "Cynara",
     "CARDS/IMAGES/104.png",
-    "--",
+    "Luly Oliveira",
     "104",
-    "--",
-    "--",
-    "Brasão de time",
-    "Dragões da Tormenta",
-    "CARDS/LOGOS/TEAMS/DTA.png",
-    "--",
-    "--",
-    "--",
-    "--",
-    "--"
+    "70",
+    "Batedora",
+    "Empréstimo",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
+    "10",
+    "10",
+    "10",
+    "12",
+    "10"
 ]
 
 function getCard104() {
@@ -2341,20 +2341,20 @@ function getCard104() {
 
 //105
 var c105 = [
-    "Dark Wolf",
+    "Dan Lacerda",
     "CARDS/IMAGES/105.png",
-    "--",
+    "@vini_pics",
     "105",
-    "--",
-    "--",
-    "Brasão de time",
-    "Dark Wolf",
-    "CARDS/LOGOS/TEAMS/DWQ.png",
-    "--",
-    "--",
-    "--",
-    "--",
-    "--"
+    "20",
+    "Batedor",
+    "Normal",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
+    "11",
+    "08",
+    "12",
+    "08",
+    "13"
 ]
 
 function getCard105() {
@@ -2363,20 +2363,20 @@ function getCard105() {
 
 //106
 var c106 = [
-    "Associação Paulista de Quadribol",
+    "Dominique",
     "CARDS/IMAGES/106.png",
-    "--",
+    "@vini_pics",
     "106",
-    "--",
-    "--",
-    "Logo da APQ",
-    "Associção Paulista de Quadribol",
-    "CARDS/LOGOS/UI/Light Mode/APQ.png",
-    "--",
-    "--",
-    "--",
-    "--",
-    "--"
+    "5",
+    "Artilheiro",
+    "Normal",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
+    "24",
+    "08",
+    "05",
+    "08",
+    "07"
 ]
 
 function getCard106() {
@@ -2385,20 +2385,20 @@ function getCard106() {
 
 //107
 var c107 = [
-    "Dragões B",
+    "Fernanda",
     "CARDS/IMAGES/107.png",
-    "--",
+    "@vini_pics",
     "107",
-    "--",
-    "--",
-    "Brasão de time",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "--",
-    "--",
-    "--",
-    "--",
-    "--"
+    "13",
+    "Artilheira",
+    "Normal",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
+    "10",
+    "10",
+    "05",
+    "20",
+    "07"
 ]
 
 function getCard107() {
@@ -2407,20 +2407,20 @@ function getCard107() {
 
 //108
 var c108 = [
-    "Kelpies do Órion",
+    "Gracy",
     "CARDS/IMAGES/108.png",
-    "--",
+    "@vini_pics",
     "108",
-    "--",
-    "--",
-    "Brasão de time",
-    "Kelpies do Órion",
-    "CARDS/LOGOS/TEAMS/KDO.png",
-    "--",
-    "--",
-    "--",
-    "--",
-    "--"
+    "8",
+    "Batedora",
+    "Normal",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
+    "10",
+    "09",
+    "12",
+    "14",
+    "07"
 ]
 
 function getCard108() {
@@ -2429,20 +2429,20 @@ function getCard108() {
 
 //109
 var c109 = [
-    "Serpentes Flamejantes",
+    "Gui Correa",
     "CARDS/IMAGES/109.png",
-    "--",
+    "@vini_pics",
     "109",
-    "--",
-    "--",
-    "Brasão de time",
-    "Serpentes Flamejantes",
-    "CARDS/LOGOS/TEAMS/SPF.png",
-    "--",
-    "--",
-    "--",
-    "--",
-    "--"
+    "25",
+    "Artilheiro",
+    "Normal",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
+    "14",
+    "12",
+    "07",
+    "13",
+    "06"
 ]
 
 function getCard109() {
@@ -2451,20 +2451,20 @@ function getCard109() {
 
 //110
 var c110 = [
-    "Stormbird Quadribol",
+    "Kelvin",
     "CARDS/IMAGES/110.png",
-    "--",
+    "@vini_pics",
     "110",
-    "--",
-    "--",
-    "Brasão de time",
+    "4",
+    "Artilheiro",
+    "Normal",
     "Stormbird Quadribol",
     "CARDS/LOGOS/TEAMS/SBQ.png",
-    "--",
-    "--",
-    "--",
-    "--",
-    "--"
+    "20",
+    "10",
+    "05",
+    "12",
+    "05"
 ]
 
 function getCard110() {
@@ -2473,20 +2473,20 @@ function getCard110() {
 
 //111
 var c111 = [
-    "Chico",
+    "Larissa",
     "CARDS/IMAGES/111.png",
-    "Desconhecido",
+    "@vini_pics",
     "111",
-    "--",
-    "--",
-    "--",
-    "Dragões da Tormenta",
-    "CARDS/LOGOS/TEAMS/DTA.png",
-    "--",
-    "--",
-    "--",
-    "--",
-    "--"
+    "26",
+    "Batedora",
+    "Normal",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
+    "09",
+    "12",
+    "05",
+    "17",
+    "09"
 ]
 
 function getCard111() {
@@ -2495,20 +2495,20 @@ function getCard111() {
 
 //112
 var c112 = [
-    "Dragões B",
+    "Miguel",
     "CARDS/IMAGES/112.png",
-    "Desconhecido",
+    "@vini_pics",
     "112",
-    "--",
-    "--",
-    "Fotografia do Time",
-    "Dragões B",
-    "CARDS/LOGOS/TEAMS/DTB.png",
-    "--",
-    "--",
-    "--",
-    "--",
-    "--"
+    "07",
+    "Goleiro",
+    "Normal",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
+    "22",
+    "05",
+    "05",
+    "10",
+    "10"
 ]
 
 function getCard112() {
@@ -2517,20 +2517,20 @@ function getCard112() {
 
 //113
 var c113 = [
-    "Dragões da Tormenta",
+    "Vinicius André",
     "CARDS/IMAGES/113.png",
-    "Desconhecida",
+    "@vini_pics",
     "113",
-    "--",
-    "--",
-    "Fotografia do Time",
-    "Dragões da Tormenta",
-    "CARDS/LOGOS/TEAMS/DTA.png",
-    "--",
-    "--",
-    "--",
-    "--",
-    "--"
+    "20",
+    "Apanhador",
+    "Normal",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
+    "10",
+    "05",
+    "12",
+    "12",
+    "10"
 ]
 
 function getCard113() {
@@ -2539,20 +2539,20 @@ function getCard113() {
 
 //114
 var c114 = [
-    "Jogador Raro",
+    "Wagner",
     "CARDS/IMAGES/114.png",
-    "Desconhecido",
+    "@viv_pics",
     "114",
-    "--",
-    "--",
-    "--",
-    "Quimera de Dellos",
-    "CARDS/LOGOS/TEAMS/QDD.png",
-    "--",
-    "--",
-    "--",
-    "--",
-    "--"
+    "21",
+    "Artilheiro",
+    "Normal",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
+    "15",
+    "06",
+    "15",
+    "10",
+    "06"
 ]
 
 function getCard114() {
@@ -2561,20 +2561,20 @@ function getCard114() {
 
 //115
 var c115 = [
-    "Kelpies do Órion",
+    "Wege",
     "CARDS/IMAGES/115.png",
-    "Desconhecido",
+    "Cynara Wainner",
     "115",
-    "--",
-    "--",
-    "Fotografia do Time",
-    "Kelpies do Órion",
-    "CARDS/LOGOS/TEAMS/KDO.png",
-    "--",
-    "--",
-    "--",
-    "--",
-    "--"
+    "77",
+    "Artilheira",
+    "Empréstimo",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
+    "12",
+    "10",
+    "08",
+    "15",
+    "07"
 ]
 
 function getCard115() {
@@ -2583,20 +2583,20 @@ function getCard115() {
 
 //116
 var c116 = [
-    "Quimera de Dellos",
+    "Ysa",
     "CARDS/IMAGES/116.png",
-    "Desconhecido",
+    "Rafael Rodrigues",
     "116",
-    "--",
-    "--",
-    "Fotografia do Time",
-    "Quimera de Dellos",
-    "CARDS/LOGOS/TEAMS/QDD.png",
-    "--",
-    "--",
-    "--",
-    "--",
-    "--"
+    "31",
+    "Artilheira / Apanhadora",
+    "Empréstimo",
+    "Stormbird Quadribol",
+    "CARDS/LOGOS/TEAMS/SBQ.png",
+    "10",
+    "11",
+    "10",
+    "10",
+    "11"
 ]
 
 function getCard116() {
@@ -2605,15 +2605,15 @@ function getCard116() {
 
 //117
 var c117 = [
-    "Serpentes Flamejantes",
+    "Associação Paulista de Quadribol",
     "CARDS/IMAGES/117.png",
-    "Desconhecido",
+    "--",
     "117",
     "--",
     "--",
-    "Fotografia do Time",
-    "Serpentes Flamejantes",
-    "CARDS/LOGOS/TEAMS/SPF.png",
+    "Logo da APQ",
+    "Associção Paulista de Quadribol",
+    "CARDS/LOGOS/UI/Light Mode/APQ.png",
     "--",
     "--",
     "--",
@@ -2627,15 +2627,15 @@ function getCard117() {
 
 //118
 var c118 = [
-    "Stormbird Quadribol",
+    "Chico",
     "CARDS/IMAGES/118.png",
     "Desconhecido",
     "118",
     "--",
     "--",
-    "Fotografia do Time",
-    "Stormbird Quadribol",
-    "CARDS/LOGOS/TEAMS/SBQ.png",
+    "--",
+    "Dragões da Tormenta",
+    "CARDS/LOGOS/TEAMS/DTA.png",
     "--",
     "--",
     "--",
@@ -2649,15 +2649,15 @@ function getCard118() {
 
 //119
 var c119 = [
-    "Gael",
+    "Jogador Raro",
     "CARDS/IMAGES/119.png",
     "Desconhecido",
     "119",
     "--",
     "--",
     "--",
-    "Dragões da Tormenta",
-    "CARDS/LOGOS/TEAMS/DTA.png",
+    "Quimera de Dellos",
+    "CARDS/LOGOS/TEAMS/QDD.png",
     "--",
     "--",
     "--",
@@ -2671,10 +2671,36 @@ function getCard119() {
 
 //120
 var c120 = [
-    "Brooms Up!",
+    "Gael",
     "CARDS/IMAGES/120.png",
     "Desconhecido",
     "120",
+    "--",
+    "--",
+    "--",
+    "Dragões da Tormenta",
+    "CARDS/LOGOS/TEAMS/DTA.png",
+    "--",
+    "--",
+    "--",
+    "--",
+    "--"
+]
+
+function getCard120() {
+    return c120;
+}
+
+//----------------------
+//Jogada Fantástica
+//----------------------
+
+//121
+var c121 = [
+    "Brooms Up!",
+    "CARDS/IMAGES/121.png",
+    "Desconhecido",
+    "121",
     "--",
     "FIIIIIIIIIIIIIII (Onomatopeia de Apito)",
     "Jogada Fantástica",
@@ -2687,16 +2713,16 @@ var c120 = [
     "00"
 ]
 
-function getCard120() {
-    return c120;
+function getCard121() {
+    return c121;
 }
 
-//121
-var c121 = [
+//122
+var c122 = [
     "Casal James Bond",
-    "CARDS/IMAGES/121.png",
+    "CARDS/IMAGES/122.png",
     "@augustostos",
-    "121",
+    "122",
     "--",
     "Juntos são uma máquina, crápulas, imparáveis!",
     "Jogada Fantástica",
@@ -2709,16 +2735,16 @@ var c121 = [
     "00"
 ]
 
-function getCard121() {
-    return c121;
+function getCard122() {
+    return c122;
 }
 
-//122
-var c122 = [
+//123
+var c123 = [
     "Contra ataque avassalador",
-    "CARDS/IMAGES/122.png",
+    "CARDS/IMAGES/123.png",
     "@brunobalisa",
-    "122",
+    "123",
     "--",
     "Sai da frente!",
     "Jogada Fantástica",
@@ -2731,16 +2757,16 @@ var c122 = [
     "01"
 ]
 
-function getCard122() {
-    return c122;
+function getCard123() {
+    return c123;
 }
 
-//123
-var c123 = [
+//124
+var c124 = [
     "É inevitável que o impossível aconteça",
-    "CARDS/IMAGES/123.png",
+    "CARDS/IMAGES/124.png",
     "Dayane Hypolito",
-    "123",
+    "124",
     "--",
     "A melhor jogada que eu já fiz",
     "Jogada Fantástica",
@@ -2753,16 +2779,16 @@ var c123 = [
     "19"
 ]
 
-function getCard123() {
-    return c123;
+function getCard124() {
+    return c124;
 }
 
-//124
-var c124 = [
+//125
+var c125 = [
     "É nóis que voa bruxão",
-    "CARDS/IMAGES/124.png",
+    "CARDS/IMAGES/125.png",
     "@brunobasila",
-    "124",
+    "125",
     "--",
     "Driblei o adversário e pulei sobre a artilheira para fazer o gol",
     "Jogada Fantástica",
@@ -2775,16 +2801,16 @@ var c124 = [
     "00"
 ]
 
-function getCard124() {
-    return c124;
+function getCard125() {
+    return c125;
 }
 
-//125
-var c125 = [
+//126
+var c126 = [
     "Girafla",
-    "CARDS/IMAGES/125.png",
+    "CARDS/IMAGES/126.png",
     "@brunobasila",
-    "125",
+    "126",
     "--",
     "Parceria dentro e fora de campo. Fla passa para Girafa, Girafa finaliza e.... esquece!",
     "Jogada Fantástica",
@@ -2797,16 +2823,16 @@ var c125 = [
     "17"
 ]
 
-function getCard125() {
-    return c125;
+function getCard126() {
+    return c126;
 }
 
-//126
-var c126 = [
+//127
+var c127 = [
     "Grito de guerra",
-    "CARDS/IMAGES/126.png",
+    "CARDS/IMAGES/127.png",
     "@brunobasila",
-    "126",
+    "127",
     "--",
     "Motivação da equipe",
     "Jogada Fantástica",
@@ -2819,16 +2845,16 @@ var c126 = [
     "16"
 ]
 
-function getCard126() {
-    return c126;
+function getCard127() {
+    return c127;
 }
 
-//127
-var c127 = [
+//128
+var c128 = [
     "Impedido o jogador adversário de avançar nos aros",
-    "CARDS/IMAGES/127.png",
+    "CARDS/IMAGES/128.png",
     "@brunobasila",
-    "127",
+    "128",
     "--",
     "Realizando a defesa jogando o jogador adversário pela lateral do campo",
     "Jogada Fantástica",
@@ -2841,16 +2867,16 @@ var c127 = [
     "12"
 ]
 
-function getCard127() {
-    return c127;
+function getCard128() {
+    return c128;
 }
 
-//128
-var c128 = [
+//129
+var c129 = [
     "Joinha da arbitragem",
-    "CARDS/IMAGES/128.png",
+    "CARDS/IMAGES/129.png",
     "@brunobasila",
-    "128",
+    "129",
     "--",
     "Apenas um árbitro muito feliz",
     "Jogada Fantástica",
@@ -2863,16 +2889,16 @@ var c128 = [
     "21"
 ]
 
-function getCard128() {
-    return c128;
+function getCard129() {
+    return c129;
 }
 
-//129
-var c129 = [
+//130
+var c130 = [
     "Me derrubaram aqui",
-    "CARDS/IMAGES/129.png",
+    "CARDS/IMAGES/130.png",
     "@brunobasila",
-    "129",
+    "130",
     "--",
     "Um tackle poderoso capaz de derrubar qualquer inimigo",
     "Jogada Fantástica",
@@ -2885,16 +2911,16 @@ var c129 = [
     "00"
 ]
 
-function getCard129() {
-    return c129;
+function getCard130() {
+    return c130;
 }
 
-//130
-var c130 = [
+//131
+var c131 = [
     "Presas da serpente",
-    "CARDS/IMAGES/130.png",
+    "CARDS/IMAGES/131.png",
     "@brunobasila",
-    "130",
+    "131",
     "--",
     "A jararaca venenosa e o brinquedinho assassino",
     "Jogada Fantástica",
@@ -2907,16 +2933,16 @@ var c130 = [
     "00"
 ]
 
-function getCard130() {
-    return c130;
+function getCard131() {
+    return c131;
 }
 
-//131
-var c131 = [
+//132
+var c132 = [
     "Salva pelas pernas",
-    "CARDS/IMAGES/131.png",
+    "CARDS/IMAGES/132.png",
     "Desconhecido",
-    "131",
+    "132",
     "--",
     "Segurar um balaço jogado com força apenas com as coxas",
     "Jogada Fantástica",
@@ -2929,16 +2955,16 @@ var c131 = [
     "00"
 ]
 
-function getCard131() {
-    return c131;
+function getCard132() {
+    return c132;
 }
 
-//132
-var c132 = [
+//133
+var c133 = [
     "Sathan e Malícia",
-    "CARDS/IMAGES/132.png",
+    "CARDS/IMAGES/133.png",
     "@mahmoura_",
-    "132",
+    "133",
     "--",
     "Se correr o bicho pega, se ficar o bicho come!",
     "Jogada Fantástica",
@@ -2951,16 +2977,16 @@ var c132 = [
     "12"
 ]
 
-function getCard132() {
-    return c132;
+function getCard133() {
+    return c133;
 }
 
-//133
-var c133 = [
+//134
+var c134 = [
     "Sem balaço!",
-    "CARDS/IMAGES/133.png",
+    "CARDS/IMAGES/134.png",
     "@foto.gragonzaga",
-    "133",
+    "134",
     "--",
     "Uma explosão em linha reta do quimelouco!!",
     "Jogada Fantástica",
@@ -2973,16 +2999,16 @@ var c133 = [
     "00"
 ]
 
-function getCard133() {
-    return c133;
+function getCard134() {
+    return c134;
 }
 
-//134
-var c134 = [
+//135
+var c135 = [
     "Ta salvo!",
-    "CARDS/IMAGES/134.png",
+    "CARDS/IMAGES/135.png",
     "@brunobalisa",
-    "134",
+    "135",
     "--",
     "Olha o balaço!! Pula",
     "Jogada Fantástica",
@@ -2995,16 +3021,16 @@ var c134 = [
     "06"
 ]
 
-function getCard134() {
-    return c134;
+function getCard135() {
+    return c135;
 }
 
-//135
-var c135 = [
+//136
+var c136 = [
     "The catch is good",
-    "CARDS/IMAGES/135.png",
+    "CARDS/IMAGES/136.png",
     "Desconhecido",
-    "135",
+    "136",
     "--",
     "Apanhada do título latino-americano!",
     "Jogada Fantástica",
@@ -3017,16 +3043,16 @@ var c135 = [
     "12"
 ]
 
-function getCard135() {
-    return c135;
+function getCard136() {
+    return c136;
 }
 
-//136
-var c136 = [
+//137
+var c137 = [
     "Tico e Teco",
-    "CARDS/IMAGES/136.png",
+    "CARDS/IMAGES/137.png",
     "@brunobalisa",
-    "136",
+    "137",
     "--",
     "A melhor dupla do interior",
     "Jogada Fantástica",
@@ -3039,16 +3065,16 @@ var c136 = [
     "13"
 ]
 
-function getCard136() {
-    return c136;
+function getCard137() {
+    return c137;
 }
 
-//137
-var c137 = [
+//138
+var c138 = [
     "Vem tranquilo!",
-    "CARDS/IMAGES/137.png",
+    "CARDS/IMAGES/138.png",
     "Desconhecido",
-    "137",
+    "138",
     "--",
     "Agarro uma bola relativamente difícil e abro os braços pro jogador vir mais tranquilo!",
     "Jogada Fantástica",
@@ -3061,6 +3087,6 @@ var c137 = [
     "01"
 ]
 
-function getCard137() {
-    return c137;
+function getCard138() {
+    return c138;
 }

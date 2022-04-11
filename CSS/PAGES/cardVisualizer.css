@@ -201,10 +201,10 @@ article{
     grid-template-areas:
     'sectionTitle           sectionTitle            sectionTitle        sectionTitle'
     'cardStrengthLabel      cardStrengthBar         cardStrengthData    cardStrengthLogo'
-    'cardDexterityLabel     cardDexterityBar        cardDexterityData   cardDexterityLogo'
     'cardAgilityLabel       cardAgilityBar          cardAgilityData     cardAgilityLogo'
-    'cardInteligenceLabel   cardInteligenceBar      cardInteligenceData cardInteligenceLogo'
-    'cardStaminaLabel       cardStaminaBar          cardStaminaData     cardStaminaLogo';
+    'cardStaminaLabel       cardStaminaBar          cardStaminaData     cardStaminaLogo'
+    'cardDexterityLabel     cardDexterityBar        cardDexterityData   cardDexterityLogo'
+    'cardInteligenceLabel   cardInteligenceBar      cardInteligenceData cardInteligenceLogo';
 }
 
 /*Card stat label*/

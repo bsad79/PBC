@@ -49,7 +49,7 @@ function previousCard() {
 
 //Call in the nextCard
 function nextCard() {
-    if((parseInt(newCard[3]) + 1) >= 138) {
+    if((parseInt(newCard[3]) + 1) >= 139) {
         return;
     }
 
@@ -76,7 +76,7 @@ function renderNewCard() {
         previousCardBtn.style.opacity = "1"
     }
 
-    if((parseInt(newCard[3]) + 1) >= 138) {
+    if((parseInt(newCard[3]) + 1) >= 139) {
         nextCardBtn.style.pointerEvents = "none"
         nextCardBtn.style.opacity = "0.5"
     }
