@@ -25,7 +25,7 @@ function getCard000() {
 
 //001
 var c001 = [
-    "Dark Wolf",
+    "Dark Wolf Quiddich",
     "CARDS/IMAGES/001.png",
     "--",
     "001",
